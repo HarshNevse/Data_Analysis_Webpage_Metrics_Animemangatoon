@@ -54,8 +54,9 @@ Note: All data has been generated randomly using Numpy's Random module.
    ![bcc9e5c9-5247-4211-a136-aeea3c164c74](https://github.com/user-attachments/assets/27f4f329-f6af-4a60-93e6-a8c46357f1da)
 
    - Suggestions are made to tailor content to each segment:
-     - **New visitors**: Create beginner’s guides or introductory sections.
-     - **Returning visitors**: Provide deeper analyses or fan theories.
+      - Users b/w 18-35 are more likely to return to the webpage or explore one.
+      - Need to tailor suitable experiences for the mature audience to increase return rate (35+)
+      - Example: A more professional text font and accessible UI.
 
 ## **Project Structure**
 

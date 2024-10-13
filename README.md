@@ -1,4 +1,4 @@
-# **AnimeToons User Interaction Analysis Project**
+# **AnimeMangaToon User Interaction Analysis Project**
 
 This project analyzes user engagement data for various articles on AnimeMangaToon using A/B testing and various data visualizations. The objective is to gain insights into user behavior and suggest improvements to increase user retention and reduce bounce rates.
 

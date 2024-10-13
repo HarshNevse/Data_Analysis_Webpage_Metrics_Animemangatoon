@@ -1,14 +1,28 @@
 # **AnimeToons User Interaction Analysis Project**
 
-This project analyzes user engagement data for various articles on AnimeMangaToon using A/B testing and data visualization techniques. The objective is to gain insights into user behavior and suggest improvements to increase user retention and reduce bounce rates.
+This project analyzes user engagement data for various articles on AnimeMangaToon using A/B testing and various data visualizations. The objective is to gain insights into user behavior and suggest improvements to increase user retention and reduce bounce rates.
+
+Note: All data has been generated randomly using Numpy's Random module.
 
 ## **Project Overview**
 
-This project consists of three primary tasks:
-
 1. **User Engagement Analysis for "Why is the Tower of God Show So Popular?"**
-   - Metrics like **page views**, **average time spent**, and **bounce rate** are analyzed.
-   - Visualizations (bar graphs, pie charts) are used to identify engagement trends.
+
+   **Sample data**:  
+   ![{02342C6C-1DC9-4E62-9FDA-0D6E74286C37}](https://github.com/user-attachments/assets/6a9cedb7-bc9b-4190-aad4-4e3badd370cb)
+
+   **Temporal analysis (views)**:  
+   ![480fa2cd-0878-44fa-b97d-01a201d6bd26](https://github.com/user-attachments/assets/9e153a8d-4d86-4564-89b6-d7c20ca3fa5d)
+
+   **Top 10 most viewed days**:  
+   ![{46A5389C-8214-440B-8C51-C361FB041D76}](https://github.com/user-attachments/assets/8505ea1b-86a5-4855-8333-cca0cc7cc678)
+
+   **And Worst**:  
+   ![{C1892D1A-85F4-4695-973D-DE3A5B0A0A59}](https://github.com/user-attachments/assets/2a422463-3b8d-4805-8757-7f37a693dff9)
+
+   **Bounce rate vs avg time spent**:  
+   ![46f1b55b-09a0-4330-a271-9fadc1901e33](https://github.com/user-attachments/assets/53946e28-79df-410b-bb69-228a78181329)
+
    - Two strategies to increase the **average time spent on the page** are suggested based on the analysis:
      - **Enhance internal linking**: Adding relevant internal links to keep users engaged with related content.
      - **Improve content readability**: Break the article into sections with subheadings, images, and infographics.
@@ -17,10 +31,28 @@ This project consists of three primary tasks:
    - A/B testing strategy is proposed with content changes:
      - Testing different **headlines** (e.g., engaging question vs. statement) and **visuals** (character close-ups vs. action shots).
      - Metrics like **Click-Through Rate (CTR)** and **Bounce Rate** are tracked to measure user interaction.
-   - Visualization: Bar graphs comparing CTR and bounce rates for both versions.
+
+   **Sample data**:  
+   ![{CFAB124F-6B6E-4EA8-BFDF-49690ADB2E1B}](https://github.com/user-attachments/assets/5be7f038-179f-4693-92a3-47fc5662df0f)
+
+   **Visualization**:  
+   ![c15fb65d-8cc0-4021-8c7a-e6bd83ad4c97](https://github.com/user-attachments/assets/ec6da47a-8f42-4ace-ae0e-57f72fd8402c)
+
+   ### Inference based on A/B strategy:
+     - **Version B** performs better on CTR, meaning headlines/thumbnails are catchier in Version B compared to Version A.
+     - **Version B** also performs better in Bounce Rate, while **Version A** suffers from a higher bounce rate, indicating articles in Version A fail to capture the user's attention.
+
+   **Solution**: **Version B** is the better choice overall and should be the page to go live.
 
 3. **User Segmentation Case Study for "11 Best Solo Leveling Arcs in the Manhwa to Read Now"**
    - Users are segmented based on **demographics** (e.g., age group) and **behavior** (e.g., returning vs. new visitors).
+
+   **Segmentation Visualization**:  
+   ![{6FA0126C-28E9-4EA1-B800-2B2B28666E8E}](https://github.com/user-attachments/assets/6a4dc1a7-2421-44bb-84b1-bed867bb083c)
+
+   **Visualization**:  
+   ![bcc9e5c9-5247-4211-a136-aeea3c164c74](https://github.com/user-attachments/assets/27f4f329-f6af-4a60-93e6-a8c46357f1da)
+
    - Suggestions are made to tailor content to each segment:
      - **New visitors**: Create beginner’s guides or introductory sections.
      - **Returning visitors**: Provide deeper analyses or fan theories.
